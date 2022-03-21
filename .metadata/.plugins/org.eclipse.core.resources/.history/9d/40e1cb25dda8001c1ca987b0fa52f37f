@@ -1,0 +1,6 @@
+package CO1;
+public class Qn2 {
+public static void main(String args[]){
+	int a[][]=new int[50][50];
+}
+}

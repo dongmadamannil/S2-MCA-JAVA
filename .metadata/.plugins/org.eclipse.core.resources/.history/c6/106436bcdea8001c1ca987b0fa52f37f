@@ -1,0 +1,18 @@
+package CO1;
+import java.util.*;
+public class Qn2 {
+public static void main(String args[]){
+	
+	
+}
+}
+class ArGet{
+	int a[][]=new int[50][50];
+	ArGet(){
+		System.out.println("Enter Row and Column Size");
+		Scanner obj=new Scanner(System.in);
+		int m=obj.nextInt();
+		int n=obj.nextInt();
+		
+	}
+}

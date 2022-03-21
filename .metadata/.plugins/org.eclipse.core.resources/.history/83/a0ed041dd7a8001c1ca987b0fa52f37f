@@ -1,0 +1,24 @@
+package CO1;
+import java.util.*;
+public class Qn1 {
+public static void main(String args[])
+{
+	Product a=new Product();
+	Product b=new Product();
+	Product c=new Product();
+	Product z=a.price>b.price?(a.price>c.price?a:c):(b.price>c.price?b:c);
+	System.out.println("Largest priced product Details\nProduct Code:"+z.pcode+"\nProduct Name"+z.pname+"\nPrice:"+z.price);
+}
+}
+class Product{
+	int pcode;
+	String pname;
+	int price;
+	Product(){
+		Scanner obj=new Scanner(System.in);
+		pcode=obj.nextInt();
+		pname=obj.nextLine();
+		price=obj.nextInt();
+	}
+	
+}

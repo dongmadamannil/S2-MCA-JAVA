@@ -1,0 +1,20 @@
+package CO1;
+import java.util.*;
+public class Qn1 {
+public static void main(String args[])
+{
+	
+}
+}
+class Product{
+	int pcode;
+	String pname;
+	int price;
+	Product(){
+		Scanner obj=new Scanner(System.in);
+		pcode=obj.nextInt();
+		pname=obj.nextLine;
+		price=obj.nextInt();
+	}
+	
+}
