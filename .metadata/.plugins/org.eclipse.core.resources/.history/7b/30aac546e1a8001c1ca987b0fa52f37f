@@ -12,9 +12,6 @@ public static void main(String args[]){
 }
 class ArGet{
 	int a[][]=new int[50][50];
-	ArGet(){
-		;
-	}
 	ArGet(int m,int n){
 		
 		System.out.println("Enter "+m+"X"+n+" Elements");
