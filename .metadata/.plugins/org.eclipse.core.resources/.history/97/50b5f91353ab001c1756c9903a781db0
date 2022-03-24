@@ -9,13 +9,7 @@ public static void main(String args[]){
 	ArGet a=new ArGet(m,n);
 	ArGet b=new ArGet(m,n);
 	Calculate k=new Calculate();
-	ArGet mn=k.calcu(a,b,m,n);
-	for(int i=0;i<m;i++){
-		for(int j=0;j<n;++j)
-			System.out.print(mn.a[i][j]+"\t");
-	System.out.println();
-	}
-	
+	ArGet mn=k.
 }
 }
 class ArGet{
@@ -34,11 +28,10 @@ class ArGet{
 }
 class Calculate{
 	ArGet z=new ArGet();
-ArGet calcu(ArGet a,ArGet b,int m,int n){
+ArGet calcu(ArGet a,ArGet b){
 	for(int i=0;i<m;i++)
 		for(int j=0;j<n;++j)
-			z.a[i][j]=a.a[i][j]+b.a[i][j];
-	return z;
+			a[i][j]=obj.nextInt();
 	}
 }
 

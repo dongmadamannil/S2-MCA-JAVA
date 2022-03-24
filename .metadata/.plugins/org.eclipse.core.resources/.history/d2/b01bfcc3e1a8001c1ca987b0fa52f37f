@@ -8,14 +8,6 @@ public static void main(String args[]){
 	int n=obj.nextInt();
 	ArGet a=new ArGet(m,n);
 	ArGet b=new ArGet(m,n);
-	Calculate k=new Calculate();
-	ArGet mn=k.calcu(a,b,m,n);
-	for(int i=0;i<m;i++){
-		for(int j=0;j<n;++j)
-			System.out.print(mn.a[i][j]+"\t");
-	System.out.println();
-	}
-	
 }
 }
 class ArGet{
@@ -34,11 +26,8 @@ class ArGet{
 }
 class Calculate{
 	ArGet z=new ArGet();
-ArGet calcu(ArGet a,ArGet b,int m,int n){
-	for(int i=0;i<m;i++)
-		for(int j=0;j<n;++j)
-			z.a[i][j]=a.a[i][j]+b.a[i][j];
-	return z;
+ArGet calcu(ArGet a,ArGet b){
+		
 	}
 }
 
