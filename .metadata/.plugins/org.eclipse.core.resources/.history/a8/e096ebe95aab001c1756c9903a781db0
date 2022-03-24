@@ -1,0 +1,18 @@
+import java.util.*;
+public class SamQn1 {
+public static void main(String args[]){
+	Rect a=new Rect();
+	Rect b=new Rect();
+}
+}
+class Rect{
+	int length,breadth;
+	Rect(){
+		Scanner obj=new Scanner(System.in);
+		System.out.println("Enter length:");
+		length=obj.nextInt();
+		breadth=obj.nextInt();
+		
+	}
+	
+}

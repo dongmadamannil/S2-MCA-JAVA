@@ -1,0 +1,7 @@
+
+public class SamQn1 {
+public static void main(String args[]){
+	Rect a=new Rect();
+	Rect b=new Rect();
+}
+}
