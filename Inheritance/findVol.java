@@ -26,3 +26,4 @@ class findVol{
 System.out.print("Volume:"+obj.volume());
     }
 }
+/*Qn. Write a java program to calculate volume of a …. length and breadth is defined in super class height is defined in the subclass; Include volume method in subclass to calculate volume; */
